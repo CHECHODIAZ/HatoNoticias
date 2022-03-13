@@ -1,0 +1,182 @@
+#seccionprincipal{
+    width: 85%;
+    height: 90%;
+    
+    margin: 5% 0% 5% 0%;
+}
+#divnoticias{
+    display: grid;
+    grid-template-areas: "seccionprincipal seccionprincipal seccionprincipal seccion2 aside1"
+                         "seccion3 seccion3 seccion4 seccion4 aside1"
+                         "seccion3 seccion3 seccion4 seccion4 aside1"
+                         "footer footer footer footer aside1";
+}
+#seccionprincipal{
+     grid-area: seccionprincipal;
+}
+#seccion2{
+    grid-area: seccion2;
+    margin: 9% 5% 8% 0%;
+    width: 95%;
+    height: 78%;
+
+}
+#seccion3{
+    grid-area: seccion3;
+    
+}
+#seccion4{
+    grid-area: seccion4;
+    margin-left: 2%;
+    
+}
+#aside1{
+    grid-area: aside1;
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(174, 174, 236);
+    margin-top: 5%;
+}
+.seccion4{
+   display: grid;
+    grid-template-areas: "noticia4 noticia5" 
+                         "noticia4 noticia5"
+                         "noticia6 noticia7"
+                         "noticia6 noticia7"
+                         "noticia8 noticia9"
+                         "noticia8 noticia9";
+    justify-content: center;
+    align-items: center;
+
+}
+.seccion3{
+    display: grid;
+    grid-template-areas:"hr1 hr1"
+    "imgnoticia1 noticia1"
+    "imgnoticia1 noticia1"
+    "hr2 hr2"
+    "imgnoticia2 noticia2"
+    "imgnoticia2 noticia2"
+    "hr3 hr3"
+    "imgnoticia3 noticia3"
+    "imgnoticia3 noticia3" ;
+    
+}
+#noticia1{
+   grid-area: noticia1;
+   
+}
+#noticia2{
+    grid-area: noticia2;
+ }
+#noticia3{
+    grid-area: noticia3;
+    height: 50%;
+    width: 70%;
+    
+ }
+ #noticia4{
+    grid-area: noticia4;
+    background-color: rgb(245, 245, 250);
+ }
+ #noticia5{
+    grid-area: noticia5;
+    margin-left:2% ;
+    
+ }
+ #noticia6{
+    grid-area: noticia6;
+    background-color: rgb(245, 245, 250);
+ }
+ #noticia7{
+    grid-area: noticia7;
+    margin-left:2% ;
+ }
+ #noticia8{
+    grid-area: noticia8;
+    background-color: rgb(245, 245, 250);
+ }
+ #noticia9{
+    grid-area: noticia9;
+    margin-left:2% ;
+ }
+ aside{
+     display: grid;
+     justify-content:space-evenly;
+     text-align: end;
+ }
+ #imgnoticia1{
+     grid-area: imgnoticia1;
+    
+ }
+ #imgnoticia2{
+    grid-area: imgnoticia2;
+    
+}
+#imgnoticia3{
+    grid-area: imgnoticia3;
+    
+}
+#hr1{
+    grid-area: hr1;
+}
+#hr2{
+    grid-area: hr2;
+}
+#hr3{
+    grid-area: hr3;
+}
+#general{
+    margin: 0% 0% 2% 0%;
+    display: grid;
+    grid-template-areas: ". publicidad publicidad ."
+    "manu manu manu manu"
+    "header1 header1 header1 header1"
+    "seccionA seccionA seccionA seccionA"
+    "seccionA seccionA seccionA seccionA"
+    "seccionA seccionA seccionA seccionA"
+    "seccionA seccionA seccionA seccionA"
+    "seccionA seccionA seccionA seccionA"
+    "seccionA seccionA seccionA seccionA"
+    "rs rs rs rs"
+    "dpfooter dpfooter dpfooter dpfooter"
+}
+#publibidad{
+    grid-area: publicidad;
+}
+#manu{
+    grid-area: manu;
+}
+#header1{
+    grid-area: header1;
+}
+#header2{
+    grid-area: header2;
+    display: flex;
+}
+#header3{
+    grid-area: header3;
+    display: flex;
+}
+#header4{
+    grid-area: header4;
+    display: flex;
+}
+#seccionA{
+    grid-area: seccionA;
+    height: auto;
+}
+
+#rs{
+    grid-area: rs;
+}
+#dpfooter{
+    grid-area: dpfooter;
+}
+
+
+
+    
+
+
